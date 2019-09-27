@@ -1,0 +1,35 @@
+
+.board{
+margin: 200px auto;
+	border: 15px solid #69c;
+	height: 300px;
+	width: 300px;	
+	display: grid;
+	grid-template-rows: repeat(2,1fr);
+	grid-template-columns: repeat(2,1fr);	
+}
+.square{
+	width: 150px;	
+	height: 150px;
+	display: grid;
+	justify-content: center;
+	align-content: center;	
+}
+.white{
+	background-color: #eee;
+}
+.black{
+	background-color: 	#999;
+}
+.figure{
+display: inline-block;
+text-align: center;
+font-size: 80px;
+cursor: pointer;
+}
+/*.figure__img{
+width: 50%;	
+height: 50%;
+object-fit: cover;
+overflow: hidden;	
+}*/
