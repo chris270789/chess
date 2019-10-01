@@ -2,18 +2,20 @@
 .board{
 margin: 200px auto;
 	border: 15px solid #69c;
-	height: 300px;
-	width: 300px;	
-	display: grid;
-	grid-template-rows: repeat(2,1fr);
-	grid-template-columns: repeat(2,1fr);	
+	height: 640px;
+	width: 640px;	
+	display: flex;
+	flex-wrap:wrap;
+	/*
+	display:grid;grid-template-rows: repeat(2,1fr);
+	grid-template-columns: repeat(2,1fr);*/	
 }
 .square{
-	width: 150px;	
-	height: 150px;
-	display: grid;
+	width: 80px;	
+	height: 80px;
+	/*display: grid;
 	justify-content: center;
-	align-content: center;	
+	align-content: center;	*/
 }
 .white{
 	background-color: #eee;
@@ -24,7 +26,7 @@ margin: 200px auto;
 .figure{
 display: inline-block;
 text-align: center;
-font-size: 80px;
+font-size: 60px;
 cursor: pointer;
 }
 /*.figure__img{
